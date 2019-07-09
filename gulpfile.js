@@ -121,7 +121,7 @@ gulp.task('vendor-js', function(){
 
 gulp.task('theme-serve', ['theme-css'], function() {
     browserSync.init({
-        proxy: 'pm-vietnam.test',
+        proxy: 'your-website.test',
         reloadOnRestart: true,
         open: false
     });
