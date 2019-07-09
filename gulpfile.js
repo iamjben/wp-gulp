@@ -119,13 +119,14 @@ gulp.task('vendor-js', function(){
     .pipe(gulp.dest(dest + 'js'));
 });
 
-gulp.task('theme-serve', ['theme-css'], function() {
+gulp.task('theme-serve', ['theme-css', 'theme-js'], function() {
     browserSync.init({
         proxy: 'your-website.test',
         reloadOnRestart: true,
         open: false
     });
     gulp.watch(theme.css.watch, ['theme-css']);
+    gulp.watch(theme.js.watch, ['theme-js']);
     gulp.watch(themePath + '*.php').on('change', browserSync.reload);
 });
 
