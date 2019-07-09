@@ -29,21 +29,24 @@ var  theme    = {
     },
     vendorCSS: {
         in: [
-            nodePath + 'font-awesome/css/font-awesome.min.css',
-            nodePath + 'bootstrap/dist/css/bootstrap.min.css'
+            // Add your vendor css plugins location here
+            // nodePath + 'font-awesome/css/font-awesome.min.css',
+            // nodePath + 'bootstrap/dist/css/bootstrap.min.css'
         ]
     },
     vendorJS: {
         in: [
-            nodePath + 'jquery/dist/jquery.min.js',
-            nodePath + 'popper.js/dist/umd/popper.min.js',
-            nodePath + 'bootstrap/dist/js/bootstrap.min.js'
+            // Add your vendor js plugins location here
+            // nodePath + 'jquery/dist/jquery.min.js',
+            // nodePath + 'popper.js/dist/umd/popper.min.js',
+            // nodePath + 'bootstrap/dist/js/bootstrap.min.js'
         ]
     },
     fonts: {
         in: [
-            nodePath + 'font-awesome/fonts/**/*{eot,svg,ttf,woff,woff2}',
-            resPath + 'fonts/**/*{eot,svg,ttf,woff,woff2}'
+            // Add your fonts location here
+            // nodePath + 'font-awesome/fonts/**/*{eot,svg,ttf,woff,woff2}',
+            // resPath + 'fonts/**/*{eot,svg,ttf,woff,woff2}'
         ]
     },
     images: {
